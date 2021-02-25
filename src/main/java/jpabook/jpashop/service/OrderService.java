@@ -47,8 +47,8 @@ public class OrderService {
     //cancel
 
     /*
-    * 주문취소*/
-
+    * 주문취소
+    * */
     @Transactional
     public void cancelOrder(Long orderId){
         //주문 엔티티
